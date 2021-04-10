@@ -1,15 +1,15 @@
 package accessModifier;
 
-public class SampleModifier {
-}
-	public class Simple {
-		public static void publicMethod() {
+public class SampleModifier{
+
+	public static void Simple(){
+		
 			System.out.println(" Everyone can acces publicMethod");
 		} 
 		protected void protectMethod() {
 			System.out.println(" This method is protected");
 		}
-		void defaultMethod{
+		void defaultMethod(){
 			System.out.println("Virtual extension methods");
 		}
 		
@@ -18,7 +18,7 @@ public class SampleModifier {
 		}
 		
 		public static void main(String[] args) {
-			publicMethod();
+			Simple();
 			SampleModifier sm = new SampleModifier();
 	}
 
